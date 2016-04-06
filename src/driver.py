@@ -1,4 +1,17 @@
-noc = parse(NOC)
+import random
+
+noc = parse(NOC_FILEPATH)
+init_bookends = parse(INITIAL_BOOKENDS_FILEPATH)
+close_bookeneds = parse(CLOSING_BOOKENDS_FILEPATH)
+script_midpoints = parse(SCRIPT_MIDPOINTS_FILEPATH)
+
+story_init_bookend = random.choice(random.choice(init_bookends))
+story_close_bookend = random.choice(random.choice(close_bookends))
+
+print(story_init_bookend)
+print(story_close_bookend)
+
+print
 
 print "How many characters are in the NOC list?"
 print "----------------------------------------"
