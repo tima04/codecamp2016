@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	//compile files("/opt/lib/jars/courserajava.jar")
+	testCompile 'junit:junit:4.12'
+}
+//apply plugin: "application"
+//mainClassName = System.getProperty("mainClass")

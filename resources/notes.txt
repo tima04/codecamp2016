@@ -1,0 +1,11 @@
+blog site: BestOfBotWorlds.com
+uname: tima
+password: secret
+
+RobotComix.com
+
+wifi:
+login-name: conferen0008
+pwd: 683pu971 
+
+pattern slides: organism.be/downloads
