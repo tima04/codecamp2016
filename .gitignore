@@ -3,4 +3,12 @@
 .classpath
 .project
 build/
+*.pyc
+*.dev*
 
+build
+dist
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
